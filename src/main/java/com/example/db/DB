@@ -1,0 +1,77 @@
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Little Kids (4-8 years old)","assets/images/product/kid/sport/sport1.png",null,"Thermoflux 2.0 - Magnoid",29.99,100,1,null,2);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"White/Elemental Pink. Big Kids (6-12 years old)","assets/images/product/kid/sport/sport2.png",null,"Nike Air Force 1",28,100,1,null,2);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Core Black/Cloud White/Core Black. Big Kids (6-12 years old)","assets/images/product/kid/sandle/sandle1.png",null,"Adilette shower slices.",31.99,100,1,null,1);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Eqt Yellow/Core White/Green. Kids (4-8 years old)","assets/images/product/kid/sandle/sandle2.png",null,"Adidas Adilette comfort xxlogo@ Slid.",22,100,1,null,1);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Core Red/Blue Mix. Big Kids (8-12 years old)","assets/images/product/kid/sandle/sandle3.png",null,"Skechers comfortable slices.",35.99,100,1,null,1);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"White. Size 7","assets/images/product/women/sandle/women_sandle1.png",null,"Birkennstock .",59.99,100,2,null,3);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Beige. Size 6","assets/images/product/women/sandle/women_sandle2.png",null,"Tory slices .",69.99,100,2,null,3);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Silver. Size 5","assets/images/product/women/sandle/women_sandle3.png",null,"Kelly & Kate.",44.99,100,2,null,3);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"White. Size 6.5","assets/images/product/women/sport/women_sport1.png",null,"Skechers Slip-ins: Ultra Flex 3.0 - Fresh Time. .",90,100,2,null,4);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"White. Size 7.5","assets/images/product/women/sport/women_sport2.png",null,"Skechers Slip-ins: Ultra Flex 3.0 - Brilliant..",90,100,2,null,4);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Black. Size 6","assets/images/product/women/sport/women_sport3.png",null,"Skechers Slip-ins: GO WALK 6 - Fabulous View.",95,100,2,null,4);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"White. Size 6","assets/images/product/women/heals/women_heals1.png",null,"Nina.",88,100,2,null,5);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Beige. Size 7","assets/images/product/women/heals/women_heals2.png",null,"Schutz Cendi Transparent Pointed Toe Pump.",99.99,100,2,null,5);
+
+insert into product(active,date_created,description,image_url, last_updated,name,unit_price,units_in_stock, product_category_id,purchase_id,sub_product_category_id)
+values(1,null,"Black. Size 7.5","assets/images/product/women/heals/women_heals3.png",null,"Nordstrom Pearla Ankle Strap Pump (Women).",99.99,100,2,null,5);
+
+
+
+
+insert into sub_product_category(sub_product_category_name,product_category_id) values("sandle",1);
+insert into sub_product_category(sub_product_category_name,product_category_id) values("sport",1);
+insert into sub_product_category(sub_product_category_name,product_category_id) values("sandle",2);
+insert into sub_product_category(sub_product_category_name,product_category_id) values("sport",2);
+insert into sub_product_category(sub_product_category_name,product_category_id) values("heals",2);
+
+insert into product_category(product_category_name) values("kid");
+insert into product_category(product_category_name) values("women");
+
+
+
+
+insert into user_category(user_category_name) values("owner");
+insert into user_category(user_category_name) values("employee");
+insert into user_category(user_category_name) values("customer");
+
+
+INSERT INTO user(address,date_created,email,last_updated,password,user_name)
+VALUES("111 1th street CA 11111",null,"james123@yahoo.com",null,"james123","james");
+
+INSERT INTO user(address,date_created,email,last_updated,password,user_name)
+VALUES("222 2th street CA 22222",null,"robert123@yahoo.com",null,"robert123","robert");
+
+INSERT INTO user(address,date_created,email,last_updated,password,user_name)
+VALUES("333 3th street CA 33333",null,"john123@yahoo.com",null,"john123","john");
+
+INSERT INTO user(address,date_created,email,last_updated,password,user_name)
+VALUES("444 4th street CA 44444",null,"william123@yahoo.com",null,"william123","william");
+
+INSERT INTO user(address,date_created,email,last_updated,password,user_name)
+VALUES("555 5th street CA 55555",null,"richard123@yahoo.com",null,"richard123","richard");
+
